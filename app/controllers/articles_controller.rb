@@ -50,3 +50,5 @@ class ArticlesController < ApplicationController
       params.require(:article).permit(:title, :body)
     end
 end
+
+#//You can use the others
